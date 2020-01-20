@@ -96,7 +96,7 @@ else:
             "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
         }
     }
-DATABASES["default"]["ATOMIC_REQUESTS"] = True  # type: ignore
+DATABASES["default"]["ATOMIC_REQUESTS"] = True
 if ENV_NAME == ENV_NAMES.PRODUCTION:
     DATABASES["default"]["CONN_MAX_AGE"] = env.int("CONN_MAX_AGE", default=60)
 
