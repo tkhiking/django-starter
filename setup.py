@@ -1,4 +1,5 @@
 import subprocess
+from typing import List, Tuple
 
 from setuptools import Command, setup
 
@@ -8,7 +9,7 @@ VERSION = "0.1.0"
 
 class BaseCommand(Command):
     description = ""
-    user_options = []
+    user_options: List[Tuple[str, ...]] = []
 
     def initialize_options(self):
         pass
