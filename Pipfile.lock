@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ab7206e2f0aef6780fc944e859ce9c16511590aae6ba71de77193a0d7e8e8a04"
+            "sha256": "17cb58f1523ee6d4fe54a005d933177a76694f938f70cccd37f4ddbf412e495e"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "python_version": "3.7"
         },
         "sources": [
             {
@@ -666,14 +666,6 @@
             "markers": "python_version < '3.8'",
             "version": "==1.6.0"
         },
-        "importlib-resources": {
-            "hashes": [
-                "sha256:4019b6a9082d8ada9def02bece4a76b131518866790d58fdda0b5f8c603b36c2",
-                "sha256:dd98ceeef3f5ad2ef4cc287b8586da4ebad15877f351e9688987ad663a0a29b8"
-            ],
-            "markers": "python_version < '3.7'",
-            "version": "==1.4.0"
-        },
         "isort": {
             "hashes": [
                 "sha256:54da7e92468955c4fceacd0c86bd0ec997b0e1ee80d97f67c35a78b719dccab1",
@@ -1184,7 +1176,6 @@
                 "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b",
                 "sha256:c599e4d75c98f6798c509911d08a22e6c021d074469042177c8c86fb92eefd96"
             ],
-            "markers": "python_version < '3.8'",
             "version": "==3.1.0"
         }
     }

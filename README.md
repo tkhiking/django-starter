@@ -15,11 +15,11 @@ pipenv run python manage.py shell -c "from django.core.management import utils; 
 pipenv run python manage.py runserver
 ```
 
-## How would I set this up myself?
+## How would I set this up myself
 
 ```shell
 # pipenv
-env PIPENV_VENV_IN_PROJECT=true pipenv --python 3.6
+PIPENV_VENV_IN_PROJECT=true pipenv --python 3.7
 pipenv install PACKAGES...
 
 # create project
