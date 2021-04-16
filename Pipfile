@@ -23,7 +23,7 @@ pytest-randomly = "==3.5.0"
 pytest-xdist = "==2.2.1"
 # Django dev tools
 django-extensions = "==3.1.1"
-django-debug-toolbar = "==3.2"
+django-debug-toolbar = "==3.2.1"
 django-silk = "==4.1.0"
 django-stubs = "==1.7.0"
 pylint-django = "==2.4.2"
