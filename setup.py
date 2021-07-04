@@ -27,13 +27,13 @@ class VetCommand(BaseCommand):
 class FormatCommand(BaseCommand):
     def run(self):
         subprocess.call(["black", "."])
-        subprocess.call(["isort", "-y"])
+        subprocess.call(["isort", "."])
 
 
 class FormatCheckCommand(BaseCommand):
     def run(self):
         subprocess.call(["black", "--check", "."])
-        subprocess.call(["isort", "-c"])
+        subprocess.call(["isort", ".", "-c", "--diff"])
 
 
 setup(

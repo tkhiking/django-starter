@@ -265,11 +265,11 @@ CORS_ORIGIN_WHITELIST = env.list("DJANGO_CORS_ORIGIN_WHITELIST", default=[])
 MIDDLEWARE += ["csp.middleware.CSPMiddleware"]
 CSP_DEFAULT_SRC = ["'self'"] + env.list("DJANGO_CSP_DEFAULT_SRC", default=[])
 
-# django-feature-policy
-# https://github.com/adamchainz/django-feature-policy
+# django-permissions-policy
+# https://github.com/adamchainz/django-permissions-policy
 MIDDLEWARE.insert(
     MIDDLEWARE.index("django.middleware.security.SecurityMiddleware") + 1,
-    "django_feature_policy.FeaturePolicyMiddleware",
+    "django_permissions_policy.PermissionsPolicyMiddleware",
 )
 
 # django-http-referrer-policy

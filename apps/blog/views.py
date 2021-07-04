@@ -1,11 +1,7 @@
 from rest_framework import viewsets
 
 from apps.blog.models import Image, Post, Tag
-from apps.blog.serializers import (
-    ImageSerializer,
-    PostSerializer,
-    TagSerializer,
-)
+from apps.blog.serializers import ImageSerializer, PostSerializer, TagSerializer
 
 
 class TagViewSet(viewsets.ModelViewSet):
